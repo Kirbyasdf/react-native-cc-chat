@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {StyleSheet, TextInput, View, Text} from 'react-native';
 import io from 'socket.io-client';
-const URL = process.env.REACT_APP_URL || 'http://localhost:3000';
+const URL = 'http://localhost:3000';
 const socket = io(URL);
 
 const App = () => {
